@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <form action="#" id="form">
+        <h1>Servey Form </h1>
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name :
+            </label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email :
+            </label>
+            <input type="text" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age :
+            </label>
+            <input type="text" id="age" placeholder="Enter your age ">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option describe you ?
+            </label>
+             <select name="role" id="label-role">
+                <option value="student"> Student</option>
+                <option value="intern"> Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other"> Other </option>
+             </select>
+        </div>
+
+           <div class="form-control">
+            <label >
+                Would you recommand to a friend ?
+            </label>
+            <label for="recommand-1">
+                <input type="radio" id="recommand-1" name="recommand" value="yes"> Yes
+                <input type="radio" id="recommand-2" name="recommand" value="No"> No
+                <input type="radio" id="recommand-3" name="recommand" value="May be"> Maybe
+            </label>
+           </div>
+       
+           <div class="form-control">
+            <label >languages and framework known 
+                <small> (check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp" value="C"> 
+                C
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp" value="C++"> 
+                C++
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp" value="C#">
+                C#
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp" value="Java"> 
+                Java
+
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp" value="Javascript"> 
+                Javascript
+
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp" value="Python"> 
+                Python
+
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp" value="React"> 
+                React
+
+            </label>
+            <label for="inp-8">
+                <input type="checkbox" name="inp" value="Angular">
+                Angular 
+
+            </label>
+            <label for="inp-9">
+                <input type="checkbox" name="inp" value="Django">
+                Django 
+
+            </label>
+           </div>
+        <div class="form-control">
+            <label for="comment">
+                Any comment or suggestion
+            </label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+         
+        <button type="submit" value="submit">
+            Submit 
+        </button>
+
+     </form>
+</body>
+</html>
